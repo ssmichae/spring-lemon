@@ -3,7 +3,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.naturalprogrammer.spring-lemon</groupId>
+    <groupId>com.ssmichae.spring-lemon</groupId>
     <artifactId>spring-lemon-jpa</artifactId>
     <packaging>jar</packaging>
 
@@ -11,7 +11,7 @@
     <description>Helper library for Spring Boot JPA Web Applications</description>
 
     <parent>
-        <groupId>com.naturalprogrammer</groupId>
+        <groupId>com.ssmichae</groupId>
         <artifactId>spring-lemon</artifactId>
         <version>1.0.0.RC2</version>
     </parent>
@@ -19,7 +19,7 @@
     <dependencies>
     
 		<dependency>
-			<groupId>com.naturalprogrammer.spring-lemon</groupId>
+			<groupId>com.ssmichae.spring-lemon</groupId>
 			<artifactId>spring-lemon-commons-jpa</artifactId>
 			<version>${project.version}</version>
 		</dependency>

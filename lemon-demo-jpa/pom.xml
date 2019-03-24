@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.naturalprogrammer.spring-lemon</groupId>
+	<groupId>com.ssmichae.spring-lemon</groupId>
 	<artifactId>lemon-demo-jpa</artifactId>
 	<packaging>jar</packaging>
 
@@ -12,7 +12,7 @@
 	<description>Demo project for Spring Lemon JPA</description>
 
 	<parent>
-		<groupId>com.naturalprogrammer</groupId>
+		<groupId>com.ssmichae</groupId>
 		<artifactId>spring-lemon</artifactId>
 		<version>1.0.0.RC2</version>
 	</parent>
@@ -37,7 +37,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.naturalprogrammer.spring-lemon</groupId>
+			<groupId>com.ssmichae.spring-lemon</groupId>
 			<artifactId>spring-lemon-jpa</artifactId>
 			<version>${project.version}</version>
 		</dependency>
